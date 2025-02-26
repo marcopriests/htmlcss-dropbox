@@ -30,6 +30,10 @@
     width: 60%;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 .w-30 {
     width: 30%;
 }
@@ -43,7 +47,7 @@
 }
 
 .borded {
-    border: 1px solid #f3f3f3;
+    border: 2px solid #f3f3f3;
 }
 
 .text-center {
@@ -62,7 +66,7 @@
 /* specifics */
 body {
     font-family: "Inter";
-    font-size: 12px;
+    font-size: 16px;
 }
 
 header {
@@ -73,13 +77,12 @@ header {
 }
 
 .logo {
-    width: 80px;
+    width: 100px;
 }
 
 
 .menu-item {
     list-style-type: none;
-    font-size: 10px;
     display: inline-block;
     margin-left: 20px;
 }
@@ -99,7 +102,7 @@ a {
     padding: 5px 10px;
     border: none;
     font-family: "Inter";
-    font-size: 10px;
+    text-align: center;
 }
 
 .btn-primary {
@@ -117,7 +120,7 @@ a {
 }
 
 .title {
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 900;
     margin-bottom: 50px;
 }
@@ -132,7 +135,7 @@ a {
 }
 
 .jumbo-visual {
-    width: 100%;
+    max-width: 800px;
 }
 
 .hr {
@@ -142,7 +145,7 @@ a {
 }
 
 .subtitle {
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 50px;
 }
 
@@ -156,4 +159,59 @@ input[type="radio"] {
 
 .plan {
     align-items: stretch;
+    margin: 50px 0;
+}
+
+.plan-type {
+    padding: 10px;
+}
+
+.plan-info {
+    padding: 50px 30px;
+}
+
+.plan-name {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-prize {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.currency {
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.service-icon {
+    margin-right: 10px;
+}
+
+.service-description {
+    margin-bottom: 20px;
+}
+
+.plan-info .btn {
+    padding: 20px;
+}
+
+.blue-link  {
+    color: blue;
+    text-decoration: underline;
+}
+
+.function li{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.list-title {
+    font-weight: 600;
+}
+
+.list-check {
+    color: #0061fe;
+    font-weight: 900;
 }
