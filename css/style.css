@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .align-items-center {
     align-items: center;
 }
@@ -22,12 +26,28 @@
     width: 80%;
 }
 
+.w-60 {
+    width: 60%;
+}
+
 .w-30 {
     width: 30%;
 }
 
 .my-30 {
     margin: 30px 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.borded {
+    border: 1px solid #f3f3f3;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
@@ -42,6 +62,7 @@
 /* specifics */
 body {
     font-family: "Inter";
+    font-size: 12px;
 }
 
 header {
@@ -89,7 +110,6 @@ a {
 .jumbo {
     background-color: #b4d0e6;
     padding-top: 150px;
-    font-size: 12px;
 }
 
 .jumbo-content {
@@ -108,9 +128,32 @@ a {
 
 .arrow {
     font-size: 40px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .jumbo-visual {
     width: 100%;
+}
+
+.hr {
+    margin: 50px 0;
+    height: 2px;
+    background-color: #f3f3f3;
+}
+
+.subtitle {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.input-plan span {
+    margin-right: 30px;
+}
+
+.plan {
+    align-items: stretch;
 }
