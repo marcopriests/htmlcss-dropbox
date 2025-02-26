@@ -3,3 +3,70 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* utility */
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* specifics */
+body {
+    font-family: "Inter";
+}
+
+header {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+}
+
+
+.menu-item {
+    list-style-type: none;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+
+.menu-link:hover {
+    color: #0061fe;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.btn-primary {
+    background-color: #0061fe;
+    color: white;
+}
