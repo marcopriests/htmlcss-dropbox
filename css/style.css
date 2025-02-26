@@ -18,6 +18,17 @@
     justify-content: space-between;
 }
 
+.w-80 {
+    width: 80%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.my-30 {
+    margin: 30px 0;
+}
 
 
 
@@ -37,6 +48,7 @@ header {
     padding: 20px;
     position: fixed;
     width: 100%;
+    background-color: #fff;
 }
 
 .logo {
@@ -51,7 +63,7 @@ header {
     margin-left: 20px;
 }
 
-.menu-link {
+a {
     text-decoration: none;
     color: black;
     transition: .3s;
@@ -64,9 +76,41 @@ header {
 
 .btn {
     padding: 5px 10px;
+    border: none;
+    font-family: "Inter";
+    font-size: 10px;
 }
 
 .btn-primary {
     background-color: #0061fe;
     color: white;
+}
+
+.jumbo {
+    background-color: #b4d0e6;
+    padding-top: 150px;
+    font-size: 12px;
+}
+
+.jumbo-content {
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.jumbo .btn {
+    padding: 10px 20px;
+}
+
+.arrow {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.jumbo-visual {
+    width: 100%;
 }
