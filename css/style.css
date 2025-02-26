@@ -58,6 +58,9 @@
     text-align: center;
 }
 
+.p-10{
+    padding: 10px;
+}
 
 
 
@@ -164,10 +167,6 @@ input[type="radio"] {
 .plan {
     align-items: stretch;
     margin: 50px 0;
-}
-
-.plan-type {
-    padding: 10px;
 }
 
 .plan-info {
