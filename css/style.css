@@ -38,6 +38,10 @@
     width: 50%;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-33 {
     width: 33%;
 }
@@ -85,6 +89,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #fff;
+    z-index: 1;
 }
 
 .logo {
@@ -145,7 +150,7 @@ a {
 }
 
 .arrow {
-    font-size: 40px;
+    font-size: 70px;
     margin-top: 70px;
 }
 
@@ -233,6 +238,29 @@ input[type="radio"] {
     margin-bottom: 10px;
 }
 
+.enterprise-col-content {
+    margin-bottom: 50px;
+}
+
 .enterprise-col-content-right .btn {
     padding: 20px 50px;
+}
+
+.img-section {
+    margin-bottom: 200px;
+}
+
+.img-section-right{
+    padding: 50px 30px;
+}
+
+.img-section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-secundary {
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px 20px;
 }
