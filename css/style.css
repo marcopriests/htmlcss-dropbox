@@ -26,6 +26,10 @@
     width: 80%;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -129,7 +133,11 @@ a {
 .title {
     font-size: 80px;
     font-weight: 900;
-    margin-bottom: 50px;
+}
+
+.jumbo-img-section {
+    position: relative;
+    top: 100px;
 }
 
 .jumbo .btn {
@@ -141,12 +149,8 @@ a {
     margin-top: 70px;
 }
 
-.jumbo-visual {
-    max-width: 800px;
-}
-
 .hr {
-    margin: 50px 0;
+    margin: 150px 0 50px 0;
     height: 2px;
     background-color: #f3f3f3;
 }
@@ -218,4 +222,17 @@ input[type="radio"] {
     color: #0061fe;
     font-weight: 900;
     margin-right: 10px;
+}
+
+.enterprise-col-body {
+    padding: 30px;
+}
+
+.enterprise-col-body h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.enterprise-col-content-right .btn {
+    padding: 20px 50px;
 }
