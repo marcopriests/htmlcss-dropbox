@@ -14,12 +14,28 @@
     flex-direction: column;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .align-items-center {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .space-between {
     justify-content: space-between;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .w-80 {
@@ -263,4 +279,18 @@ input[type="radio"] {
     border: 2px solid black;
     background-color: transparent;
     padding: 10px 20px;
+}
+
+.feature-big {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.feature-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.feature-content {
+    margin-bottom: 200px;
 }
