@@ -294,3 +294,37 @@ input[type="radio"] {
 .feature-content {
     margin-bottom: 200px;
 }
+
+footer {
+    background-color: black;
+    margin-top: 200px;
+    padding: 100px 0 50px 0;
+    color: white;
+}
+
+.foot-container {
+    margin: 0 auto;
+}
+
+.foot-menu li {
+    list-style-type: none;
+}
+
+.foot-menu-head {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.foot-menu-item {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.language {
+    color: gray;
+}
+
+.language p{
+    margin: 0 10px;
+}
